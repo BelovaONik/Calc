@@ -9,12 +9,41 @@
 <body>
     <div class="bg">
         <div class="wrapper">
-            <div class="result">
-                <form id="output-result">0</form>
-                <output form="range"></output>
+            <div class="result">  
+                <output id="output-result"></output>
             </div>
             <div class="input"> 
                 <div class="line">
+                    <button class="Btn OperList Clear">C</button>
+                    <button class="Btn OperList MemoryIn">iM</button>
+                    <button class="Btn OperList MemoryOut">oM</button>
+                    <button class="Btn OperList Sum">+</button>
+                </div>
+                <div class="line">
+                    <button class="Btn NumList">1</button>
+                    <button class="Btn NumList">2</button>
+                    <button class="Btn NumList">3</button>
+                    <button class="Btn OperList Difference">-</button>
+                </div>
+                <div class="line">
+                    <button class="Btn NumList">4</button>
+                    <button class="Btn NumList">5</button>
+                    <button class="Btn NumList">6</button>
+                    <button class="Btn OperList Multiplication">*</button>
+                </div>
+                <div class="line">
+                    <button class="Btn NumList">7</button>
+                    <button class="Btn NumList">8</button>
+                    <button class="Btn NumList">9</button>
+                    <button class="Btn OperList Division">/</button>
+                </div>
+                <div class="line">
+                    <button class="Btn OperList Backspace">Del</button>
+                    <button class="Btn NumList">0</button>
+                    <button class="Btn OperList Dot">.</button>
+                    <button class="Btn OperList Eq">=</button>
+                </div>  
+                <!-- <div class="line">
                     <ul>
                         <li class="OperList"><a href="#" class="Clear">C</a></li>
                         <li class="OperList"><a href="#" class="MemoryIn">Mi</a></li>
@@ -53,9 +82,10 @@
                         <li class="OperList"><a href="#" class="Dot">.</a></li>
                         <li class="OperList"><a href="#" class="Eq">=</a></li>
                     </ul>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>

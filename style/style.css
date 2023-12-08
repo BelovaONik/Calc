@@ -21,12 +21,12 @@ body {
   height: 100vh;
 }
 .wrapper {
-  margin: 0 0 auto;
+  max-width: 140rem;
+  margin-top: 2%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: -15rem;
 }
 .result {
   background-color: #c2d5da;
@@ -34,9 +34,12 @@ body {
   border-width: 0.1rem;
   border-style: solid;
   width: 15rem;
-  height: 5rem;
-  margin-bottom: 0.5rem;
-  margin-top: 3rem;
+  height: 6rem;
+  margin: auto;
+  font-size: 2rem;
+  color: #165758;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  word-wrap: break-word;
 }
 .input {
   flex-direction: column;
@@ -45,6 +48,8 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin: 0 auto;
+  max-width: 50rem;
 }
 .line li {
   display: inline-block;
@@ -75,7 +80,10 @@ body {
 .OperList a {
   color: #073c0c;
 }
-a {
+button {
+  width: 3.5rem;
+  height: 2.5rem;
+  margin-top: 0.15rem;
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
